@@ -1,0 +1,29 @@
+:root {
+    --white--color: #fff;
+    --black--color: #000;
+    --text--color: #ccc;
+    --height--bar:120px;
+    --height--bar1:34px;
+    --heiht--logo: calc(var(--height--bar) - var(--height--bar1));
+}
+* {
+    box-sizing: inherit;
+}
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+.grid {
+    width: 1400px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.grid__full-width {
+    width: 100%;
+}
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+}

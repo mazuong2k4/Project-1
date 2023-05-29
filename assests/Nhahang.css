@@ -1,0 +1,272 @@
+.slider {
+    background-color: #e6eaed !important;
+}
+
+.mg-top-16 {
+    margin-top: 16px;
+}
+
+.mg-bot-16 {
+    margin-bottom: 16px;
+}
+
+.mg-rg-22 {
+    margin-right: 22px;
+}
+
+.customer--slider {
+    border-radius: 5px;
+    padding: 20px 20px 0px 0px;
+    background-color: rgb(230, 234, 237) !important;
+}
+
+.slide--img--list {
+    margin-bottom: 10px;
+    list-style: none;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.customer--slider {
+    display: block;
+    padding: 30px 100px;
+}
+
+.big--img--slide {
+    height: 490px;
+    float: left;
+    padding-top: 10px;
+}
+
+.slide--img--list li:not(.big--img) {
+    display: flex;
+    flex-direction: column;
+    width: 18%;
+    justify-content: right;
+    padding: 0 12px;
+}
+
+.slide--img--list img {
+    border-radius: 20px;
+}
+
+.slide--des {
+    background-color: #fff;
+    height: 250px;
+    width: 320px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 18px;
+}
+
+.slider--img--web:not(.name--descripton) {
+    display: flex;
+}
+
+h2.slider--name {
+    padding-top: 30px;
+    font-size: 24px;
+}
+
+button.slide--hoat-dong {
+    height: 50px;
+    font-size: 18px;
+    margin-top: 15px;
+    color: #fff;
+    background-color: #e6624f;
+    border: 1px solid #e6624f;
+    width: 85%;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button.slide--hoat-dong:hover {
+    opacity: 0.7;
+}
+
+.slide--des {
+    font-size: 14px;
+}
+
+a.sdt {
+    text-decoration: none;
+    color: #000;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+p.slider--des--hoatdong {
+    margin-top: 26px;
+}
+
+.slide--time {
+    background-color: #fff;
+    margin-left: 18px;
+    border-radius: 10px;
+}
+
+h2.time--ht {
+    padding-top: 20px;
+    font-size: 18px;
+    padding-left: 12px;
+}
+
+ul.gio--ht {
+    padding-left: 24px;
+}
+
+.gio--ht li {
+    padding: 10px;
+}
+
+.gio--ht li a {
+    font-weight: 700;
+}
+
+.name--descripton {
+    padding: 25px;
+}
+
+.dat--banggc {
+    display: block;
+    background-color: #fff;
+    width: 72%;
+    border-radius: 10px;
+    padding: 18px 18px 48px 18px;
+    position: relative;
+    margin-bottom: 36px;
+}
+
+button.dat--ngay {
+    background-color: #e6624f;
+    border: 1px solid #e6624f;
+    color: #fff;
+    position: absolute;
+    top: 42px;
+    right: 50px;
+    padding: 12px 24px;
+    border-radius: 4px;
+}
+
+h2.giu--cho {
+    margin-left: 66px;
+    font-size: 24px;
+}
+
+.ap-dung {
+    margin-left: 66px;
+    font-size: 14px;
+}
+
+.dat-ban {
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.des--nhahang {
+    background-color: #fff;
+    width: 72%;
+    border-radius: 10px;
+}
+
+.des--nhahang p a {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.des--nhahang p {
+    margin: 15px 0px 12px 40px;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.des--nhahang ul {
+    padding-left: 55px;
+    line-height: 4.0;
+    list-style-type: circle;
+    margin-bottom: 12px;
+}
+
+.descrip--nhahang1 {
+    padding: 14px 0 10px 0;
+}
+
+
+.model {
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+}
+
+.open {
+    display: flex;
+}
+
+.footer--datcho {
+    background-color: #fff;
+    border: 1px solid #000;
+    margin-top: 90px;
+}
+
+header.model-header {
+    text-align: center;
+}
+
+.footer--datcho {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin-top: 90px;
+    width: 500px !important;
+    padding: 12px 30px 30px 30px !important;
+    border-radius: 5px;
+    height: 440px;
+}
+
+input.model-input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 16px;
+    border: 1px solid;
+}
+
+select#txtSoNguoiLon,
+input.model-input--time {
+    width: 47%;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid;
+}
+
+button#buy {
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+    padding: 16px;
+    margin: 18px 23px 12px 105px;
+    background-color: #e6624f;
+    border: 1px solid #e6624f;
+    color: #fff;
+    border-radius: 2px;
+}
+
+p.dat-cho {
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.dat-cho a {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+h2.thong--tin {
+    font-size: 24px;
+}
